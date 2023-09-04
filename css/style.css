@@ -359,6 +359,20 @@ button{
     .about__list{
         padding-left: 20px;
     }
+
+    .section__inner{
+        grid-template-columns: 290px auto;
+        gap: 0 10px;
+    }
+
+    .products__content{
+        gap: 67px;
+    }
+
+    .section__text{
+        font-size: 10px;
+    }
+
 }
 
 @media (max-width: 900px){
@@ -373,6 +387,17 @@ button{
     .footer__social{
         justify-content: center;
     }
+
+
+    .section__inner{
+        grid-template-columns: 200px auto;
+        gap: 0 10px;
+    }
+
+    .products__content{
+        gap: 30px 16px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -440,6 +465,41 @@ button{
     .about__item-img--3{
         width: 120px;
     }
+
+    .products__item{
+        width: 200px;
+    }
+
+    .products__item-img{
+        width: 200px;
+        margin-bottom: 6px;
+    }
+
+    .button{
+        font-size: 12px;
+    }
+
+    .products__item-text{
+        font-size: 8px;
+        margin-bottom: 18px;
+    }
+
+    .product__item-price{
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    .products__item-title{
+        font-size: 12px;
+        font-size: 9px;
+    }
+
+    .button{
+        padding: 10px 6px;
+    }
+
+
+
 }
 
 @media (max-width: 640px) {
@@ -474,6 +534,18 @@ button{
     .header__menu{
         order: 1;
     }
+
+    .section__inner{
+        display: block;
+    }
+
+    .section__descr{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+
    
 }
 
@@ -558,6 +630,26 @@ button{
     }
 
 
+    .about{
+        margin-bottom: 50px;
+    }
+
+    .section{
+        padding-bottom: 50px;
+    }
+
+    .section__content-descr{
+        padding-bottom: 62px;
+    }
+
+
+    .section__descr{
+        margin: 0 auto 30px ;
+        width: 300px;
+    }
+
+
+
 @media (max-width: 360px) {
     .top__img-l{
         width: 114px;
@@ -608,6 +700,42 @@ button{
     .about__item-img--2{
         display: none;
     }
+
+    .section__descr{
+        margin: 0 auto 25px;
+        width: 235px;
+    }
+
+    .products__item{
+        width: 150px;
+    }
+
+    .products__content{
+        gap: 47px 7px; 
+    }
+
+    .products__item-img{
+        width: 150px;
+    }
+
+    .button{
+        font-size: 8px;
+        padding: 8px 20px;
+    }
+
+    .product__item-price{
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+
+    .products__item-title{
+        font-size: 10px;
+    }
+
+    .products__item-text{
+        margin-bottom: 16px;
+    }
+
    
  }
 }
