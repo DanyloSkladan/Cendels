@@ -61,6 +61,30 @@ button{
     margin: 0 auto;
 }
 
+.section--decor{
+    position: relative;
+}
+
+.section--decor::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(../images/section-decor.png);
+    width: 22px;
+    height: 30px;
+}
+
+.section--decor::after{
+    content: '';
+    position: absolute;
+    left:22px;
+    bottom: 13px;
+    background-color: #7B6152 ;
+    width: 1000%;
+    height: 1px;
+}
+
 .menu__btn{
     width: 30px;
     height: 25px;
@@ -182,25 +206,7 @@ button{
     position: relative;
 }
 
-.about__list::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-image: url(../images/section-decor.png);
-    width: 22px;
-    height: 30px;
-}
 
-.about__list::after{
-    content: '';
-    position: absolute;
-    left:22px;
-    bottom: 13px;
-    background-color: #7B6152 ;
-    width: 1000%;
-    height: 1px;
-}
 
 
 .about__item-img{
@@ -223,6 +229,7 @@ button{
 .section__content-descr{
     display: grid;
     grid-template-columns: auto auto;
+    padding-bottom: 92px;
 }
 
 
