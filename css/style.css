@@ -270,6 +270,16 @@ button{
 }
 
 
+.steps__list{
+    gap: 70px 25px;
+}
+
+.steps__item{
+    display: flex;
+    gap: 40px;
+}
+
+
 
 
 
