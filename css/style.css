@@ -376,7 +376,15 @@ button{
 
 
 
+@media(max-width: 1050px){
+    .steps__list{
+        gap: 37px 35px ;
+    }
 
+    .steps__item{
+        gap: 0 30px;
+    }
+}
 
 
 
@@ -423,6 +431,8 @@ button{
         font-size: 10px;
     }
 
+   
+
 }
 
 @media (max-width: 900px){
@@ -446,6 +456,35 @@ button{
 
     .products__content{
         gap: 30px 16px;
+    }
+}
+@media (max-width: 980px){
+
+    .steps__title{
+        font-size: 30px;
+    }
+
+   
+
+
+    .steps__list{
+        gap: 37px 35px ;
+    }
+
+    .steps__item{
+        gap: 0 20px;
+    }
+
+    .steps__item-img{
+        width: 85px;
+        object-fit: cover;
+    }
+    .steps__item-text{
+        font-size: 6px;
+    }
+
+    .steps__item::before{
+        font-size: 20px;
     }
 
 }
@@ -685,7 +724,7 @@ button{
     }
 
     .section{
-        padding-bottom: 50px;
+        padding-bottom: 10px;
     }
 
     .section__content-descr{
@@ -699,6 +738,34 @@ button{
     }
 
 
+    .steps__title{
+        margin-top: 58px;
+    }
+
+    .steps__list{
+        gap: 25px 35px;
+    }
+
+}
+
+@media (max-width: 404px) {
+.steps__list{
+    gap: 25px 40px;
+   }
+
+.steps__item{
+    gap: 0 16px;
+}
+
+.steps__item-img{
+    width: 66px; 
+}
+
+.steps__item-text{
+    font-size: 6px;
+}
+    
+}
 
 @media (max-width: 360px) {
     .top__img-l{
@@ -786,6 +853,8 @@ button{
         margin-bottom: 16px;
     }
 
-   
+    .steps__item-text{
+        font-size: 6px;
+    }
  }
 }
