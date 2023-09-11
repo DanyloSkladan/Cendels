@@ -308,6 +308,46 @@ button{
 
 .steps__item-text{
     flex-basis: 174px;
+    padding-bottom: 40px;
+}
+
+
+.course__item-img{
+    position: relative;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.courses__title{
+    padding: 15px;
+    left: 10px;
+    top: 45%;
+}
+
+.curses__time{
+    padding: 7px 10px;
+    left: 10px;
+    top: 60%;
+}
+
+.curses__time span{
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.curses__price{
+    padding: 19px 10px;
+    right: 0px;
+    bottom: 2px;
+}
+
+
+.courses__title,
+.curses__time,
+.curses__price{
+    background-color: #BEA495;
+    position: absolute;
 }
 
 
@@ -588,6 +628,23 @@ button{
     }
 
 
+    .courses__ittle{
+        padding: 6px;
+        left: -1px;
+        top: 40%;
+    }
+
+    .curses__time{
+        padding: 5px;
+        left: -1px;
+        top: 55%;
+    }
+
+    .curses__price{
+        padding: 10px;
+        right: 0;
+        bottom: 9px;
+    }
 
 }
 
@@ -856,5 +913,5 @@ button{
     .steps__item-text{
         font-size: 6px;
     }
- }
 }
+
