@@ -493,17 +493,17 @@ button {
 }
 
 
-.sertificates__slider{
+.sertificates__slider {
     width: 1135px;
     overflow: hidden;
 }
 
 
-.sertificates__descr{
+.sertificates__descr {
     margin-right: 20px;
 }
 
-.sertificates__content{
+.sertificates__content {
     padding-bottom: 114px;
 }
 
@@ -511,6 +511,37 @@ button {
 .sertificates__content .swiper-pagination {
     bottom: 60px;
     text-align: left;
+}
+
+
+.promo {
+    background-image: url(../images/promo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+}
+
+
+.promo__inner {
+    display: flex;
+    align-items: center;
+}
+
+.promo__text {
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    color: #fff;
+    padding-left: 56px;
+    max-width: 765px;
+    margin-right: 110px;
+}
+
+.promo__link {
+    color: #272727;
+    background-color: #FFBD59;
+    display: inline-block;
+    padding: 14px 25px 12px;
 }
 
 
@@ -621,22 +652,23 @@ button {
         padding: 50px 0;
     }
 
-    .feedback__inner{
+    .feedback__inner {
         grid-template-columns: 260px auto;
     }
 
-    .feedback__slider{
+    .feedback__slider {
         width: 698px;
     }
 
-    .sertificates__content img{
+    .sertificates__content img {
         width: 280px;
     }
-    .sertificates__slider{
+
+    .sertificates__slider {
         width: 880px;
     }
 
-    .sertificates__content .swiper-pagination{
+    .sertificates__content .swiper-pagination {
         text-align: center;
     }
 
@@ -844,19 +876,19 @@ button {
     }
 
 
-    .feedback__item-video{
+    .feedback__item-video {
         width: 200px;
     }
 
-    .feedback__item-img{
+    .feedback__item-img {
         width: 200px;
     }
 
-    .feedback__slider{
+    .feedback__slider {
         width: 447px;
     }
 
-    .feedback__item-content{
+    .feedback__item-content {
         padding-bottom: 45px;
     }
 
@@ -1027,11 +1059,11 @@ button {
         margin-bottom: 50px;
     }
 
-    .sertificates__content img{
+    .sertificates__content img {
         width: 200px;
     }
 
-    .sertificates__slider{
+    .sertificates__slider {
         width: 415px;
         margin: 0 auto;
     }
@@ -1181,32 +1213,32 @@ button {
     }
 
 
-    .sertificates__slider{
+    .sertificates__slider {
         width: 200px;
         margin: 0 auto;
     }
 
-    .feedback__item{
+    .feedback__item {
         grid-template-columns: auto;
         text-align: center;
     }
 
-    .feedback__slider{
+    .feedback__slider {
         width: 250px;
         margin: 0 auto;
     }
 
-    .feedback__item-img{
+    .feedback__item-img {
         width: 250px;
         margin: 0 auto 20px;
     }
 
-    .feedback__item-video{
+    .feedback__item-video {
         width: 250px;
     }
 
 
-    .feedback__item-btn{
+    .feedback__item-btn {
         bottom: 0;
         margin: 0 auto;
         left: 0;
