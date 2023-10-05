@@ -514,6 +514,45 @@ button {
 }
 
 
+.acordeon{
+
+
+}
+
+.acordeon__item{
+    background-color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.acordeon__title{
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    display: block;
+    background-color: transparent;
+    padding: 16px 50px 16px 13px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+
+.acordeon__title::after{
+    content: '';
+    background-image: url(../images/Vector.svg);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 26px;
+    top: 17px;
+}
+
+.acordeon__text{
+    display: none;
+    padding: 20px 40px;
+}
+
+
+
 .promo {
     background-image: url(../images/promo.jpg);
     background-repeat: no-repeat;
